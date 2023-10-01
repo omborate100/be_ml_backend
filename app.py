@@ -11,7 +11,7 @@ model = pickle.load(open("model.pkl","rb"))
 @app.route('/')
 def index():
     # return render_template('index.html')
-    return "Sucessfully deployed "
+    return "Sucessfully deployed!!! "
 
 @app.route('/predict', methods=['POST'])
 def predict():
